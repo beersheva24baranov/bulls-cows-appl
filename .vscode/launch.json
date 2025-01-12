@@ -1,0 +1,33 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "bulls_cows.Main",
+            "projectName": "db-creator"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "bulls_cows.Main",
+            "projectName": "server",
+            "env": {
+                "POSTGRES_HOST": "54.157.15.110",
+                "POSTGRES_PASSWORD": "12345.com"
+            }
+        }
+    ]
+}
